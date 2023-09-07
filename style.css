@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+    width: 200%;
+    height: 550px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #131315;
+    font-family: var(--font-style);
+}
+.card-body h5{
+    color: #686ffd;;
+    display: flex;
+    justify-content: center;
+}
+#todolist{
+    color: rgb(7, 8, 8);
+    display: flex;
+    justify-content: flex-start;
+}
+.card{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background: #f2edf5;
+    box-shadow: 0 15px 25px rgpa(143,124,236,0.7);
+    border-radius: 10px;
+
+
+}
+.btn{
+    margin-top: 8px;
+    margin-left: 100px;   
+}
+#input{
+    padding-left: 30px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+ #list li span {
+    position: absolute;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #e40606;
+    text-align: center;
+    right: 30px;
+ }
+
+ #list li{
+    list-style: none;
+    background-color: #bdbfe3;
+    padding-left: 10px;
+    margin-left: 10;
+    border-radius: 4px;
+    margin-top: 5px;
+ }
+
+ #list {
+    margin-top: 20px;
+    
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
